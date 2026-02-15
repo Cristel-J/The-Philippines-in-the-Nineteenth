@@ -250,31 +250,6 @@
             justify-content: center;
         }
 
-        .diorama-box {
-            background: #f5f2ed;
-            padding: 20px;
-            margin-bottom: 15px;
-            border-radius: 3px;
-            border: 2px solid transparent;
-            transition: all 0.3s ease;
-            cursor: pointer;
-        }
-
-        .diorama-box:hover {
-            background: #ebe7df;
-            border-color: #a89074;
-            transform: translateY(-3px);
-            box-shadow: 0 5px 15px rgba(107, 87, 68, 0.1);
-        }
-
-        .diorama-box h3 {
-            transition: color 0.3s ease;
-        }
-
-        .diorama-box:hover h3 {
-            color: #5d4e37;
-        }
-
         .video-container {
             position: relative;
             padding-bottom: 56.25%; /* 16:9 ratio */
